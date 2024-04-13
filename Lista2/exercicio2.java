@@ -1,3 +1,5 @@
+// 2 - Faça um programa que receba três notas, calcule e mostre a média aritmética entre
+// elas.
 import java.util.Scanner;
 
 public class exercicio2 {

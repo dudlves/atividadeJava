@@ -1,3 +1,5 @@
+// 1 - Faça um programa que receba quatro números inteiros, calcule e mostre a soma
+// desses números
 import java.util.Scanner;
 
 public class exercicio1 {
