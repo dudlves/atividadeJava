@@ -8,6 +8,12 @@ public class exercicio4 {
     System.out.println("Digite o seu salario:");
     double salario = scanner.nextDouble();
     System.out.println("Digite o aumento do salario:");
+    double aumento = scanner.nextDouble();
+    double porcentagem = salario * (aumento / 100);
+    double soma = salario + porcentagem;
+    System.out.println("O valor do aumento foi: " + porcentagem );
+    System.out.println("o valor do novo salario foi: " + soma);
+  scanner.close();
 
   }
 }
