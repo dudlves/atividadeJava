@@ -16,7 +16,7 @@ public class exercicio21 {
     if ((valor1 + valor2) > valor3) {
       if ((valor1 + valor3) > valor2) {
         if ((valor2 + valor3) > valor1) {
-          System.out.println("E um triângulo: ");
+          System.out.println("E um triângulo:  ");
           if (valor1 == valor2 && valor1 == valor3 && valor2 == valor1 && valor2 == valor3) {
             System.out.println("equilátero");
           }

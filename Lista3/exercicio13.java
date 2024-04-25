@@ -11,13 +11,10 @@ public class exercicio13 {
     System.out.println("Digite um numero inteiro");
     int numero = scanner.nextInt();
     if(numero >= 10){
-    System.out.println("E MAIOR QUE 10!");
-
+      System.out.println("E MAIOR QUE 10!");
     }else{
-    System.out.println("NAO E MAIOR QUE 10!");
-
+      System.out.println("NAO E MAIOR QUE 10!");
     }
-
     scanner.close();
   }
 

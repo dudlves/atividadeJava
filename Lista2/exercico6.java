@@ -40,6 +40,4 @@ public class exercico6 {
     }
     scanner.close();
   }
-
-  
 }

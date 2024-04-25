@@ -13,7 +13,5 @@ public class exercicio1 {
     System.out.println("O numero sucessor é:" + sucessor);
     System.out.println("O numero antecessor é:" + antecessor);
     scanner.close();
-
-
   }
 }

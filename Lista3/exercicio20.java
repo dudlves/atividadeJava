@@ -1,4 +1,9 @@
-
+// Escrever um programa para ler duas notas de um aluno e escrever na tela a
+// palavra “Aprovado” se a média das duas notas for maior ou igual a 7,0. Caso a
+// média seja inferior a 7,0, o programa deve ler uma nova nota relativa ao Exame
+// Final e calcular e imprimir o resultado com a média final. Se esta média for maior
+// ou igual a 7,0, o programa deve escrever “Aprovado” com a nota Fixa 6, caso
+// contrário deve escrever "Reprovado"
 
 import java.util.Scanner;
 

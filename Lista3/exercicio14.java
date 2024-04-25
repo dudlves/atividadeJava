@@ -1,11 +1,7 @@
 // Escrever um programa para ler um valor inteiro e verificar se este valor é par ou
 // ímpar.
 
-
-
 import java.util.Scanner;
-
-
 public class exercicio14 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
