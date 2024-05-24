@@ -17,18 +17,15 @@ public class exercicio5 {
     if (num2 < menor) {
       menor = num2;
     }
-    if (menor % 2 !=0) {
+    if (menor % 2 != 0) {
       menor++;
     }
-    int i = 0;
-    while (menor < maior - 2) {
-      if (menor % 2 ==0) {
-        menor +=2;
-      }
+
+    while (menor < maior){
+      System.out.println("Os numeros pares são " + menor);
+      menor += 2;
      
-      System.out.println( "Oss numeros pares são" + menor);
-     
-     i++;
     }
+    scanner.close();
   }
 }
