@@ -7,13 +7,13 @@ public class exercicio3 {
     Scanner scanner = new Scanner(System.in);
     System.out.println("digite um numero inteiro maior que 20");
     int numero = scanner.nextInt();
-    int i = 0;
+    int i = 1;
     if (numero < 20) {
       System.out.println("numero nao e maior que 20");
     }
     System.out.printf("O numeros divisores são: ","\t");
 
-    while (i < numero) {
+    while (i <= numero) {
       if (numero > 20 && numero % i == 0) {
         System.out.printf( i + "\t");
       }
